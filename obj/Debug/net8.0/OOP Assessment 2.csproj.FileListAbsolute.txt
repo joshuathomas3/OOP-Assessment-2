@@ -1,0 +1,14 @@
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /bin/Debug/net8.0/OOP Assessment 2
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /bin/Debug/net8.0/OOP Assessment 2.deps.json
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /bin/Debug/net8.0/OOP Assessment 2.runtimeconfig.json
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /bin/Debug/net8.0/OOP Assessment 2.dll
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /bin/Debug/net8.0/OOP Assessment 2.pdb
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/OOP Assessment 2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/OOP Assessment 2.AssemblyInfoInputs.cache
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/OOP Assessment 2.AssemblyInfo.cs
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/OOP Assessment 2.csproj.CoreCompileInputs.cache
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/OOP Assessment 2.dll
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/refint/OOP Assessment 2.dll
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/OOP Assessment 2.pdb
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/OOP Assessment 2.genruntimeconfig.cache
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/ref/OOP Assessment 2.dll
