@@ -12,3 +12,4 @@
 /Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/OOP Assessment 2.pdb
 /Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/OOP Assessment 2.genruntimeconfig.cache
 /Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/ref/OOP Assessment 2.dll
+/Users/joshuathomas/Documents/dotnet/OOP Assessment 2 /obj/Debug/net8.0/OOP Assessment 2.sourcelink.json

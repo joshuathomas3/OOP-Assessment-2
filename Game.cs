@@ -39,9 +39,13 @@ namespace CMP1903_A1_2324
             {
                 case 1:
                     Console.WriteLine("Play SevensOut");
+                    SevensOut sevensOut = new SevensOut();
+                    sevensOut.SevensOutGame();
                     break;
                 case 2:
                     Console.WriteLine("Play ThreeOrMore");
+                    ThreeOrMore threeOrMore = new ThreeOrMore();
+                    threeOrMore.ThreeOrMoreGame();
                     break;
                 case 3:
                     Console.WriteLine("View Statistics data");
