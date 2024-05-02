@@ -12,17 +12,22 @@ namespace CMP1903_A1_2324
 {
     internal class ThreeOrMore
     {
-        public void ThreeOrMoreGame()
+        public Statistics ThreeOrMoreGame(Statistics statistics, bool testingEnabled)
         {
             int[] die = new int[5];
             int[] dieCount = new int[6];
             var Die = new Die();
             int highestCount = 0;
 
+            if (testingEnabled == false)
+            {
+                statistics.threeOrMorePlayCounterIncrement();
+            }
+
             int player1Points = 0;
             int player2Points = 0;
             int whosTurn = 0;
-            bool pointsOver21 = false;
+            bool pointsOver19 = false;
 
             ClearConsole();
             OutputWhosTurn(whosTurn);
@@ -31,15 +36,16 @@ namespace CMP1903_A1_2324
             GetDieCount(die, dieCount);
             highestCount = GetHighestCount(dieCount);
 
-            while (pointsOver21 == false)
+            while (pointsOver19 == false)
             {
-                CalculatePoints(die, ref dieCount, Die, ref highestCount, ref player1Points, ref player2Points, ref whosTurn, ref pointsOver21);
+                CalculatePoints(die, ref dieCount, Die, ref highestCount, ref player1Points, ref player2Points, ref whosTurn, ref pointsOver19);
             }
 
             GameOverOutput(player1Points, player2Points);
+            return statistics;
         }
 
-        private static void CalculatePoints(int[] die, ref int[] dieCount, Die Die, ref int highestCount, ref int player1Points, ref int player2Points, ref int whosTurn, ref bool pointsOver21)
+        private static void CalculatePoints(int[] die, ref int[] dieCount, Die Die, ref int highestCount, ref int player1Points, ref int player2Points, ref int whosTurn, ref bool pointsOver19)
         {
             switch (highestCount)
             {
@@ -58,7 +64,7 @@ namespace CMP1903_A1_2324
 
                     if (player1Points > 19 || player2Points > 19)
                     {
-                        pointsOver21 = true;
+                        pointsOver19 = true;
                     }
                     else
                     {
@@ -150,7 +156,7 @@ namespace CMP1903_A1_2324
 
                     if (player1Points > 19 || player2Points > 19)
                     {
-                        pointsOver21 = true;
+                        pointsOver19 = true;
                     }
                     else
                     {
@@ -177,11 +183,13 @@ namespace CMP1903_A1_2324
                         Console.WriteLine("Three of a kind rolled. Total Points for P2: " + player2Points);
                     }
 
+                    Testing.ThreeOrMoreTotalTest(player1Points, player2Points);
+
                     ClearConsole();
 
                     if (player1Points > 19 || player2Points > 19)
                     {
-                        pointsOver21 = true;
+                        pointsOver19 = true;
                     }
                     else
                     {
@@ -208,11 +216,13 @@ namespace CMP1903_A1_2324
                         Console.WriteLine("Four of a kind rolled. Total Points for P2: " + player2Points);
                     }
 
+                    Testing.ThreeOrMoreTotalTest(player1Points, player2Points);
+
                     ClearConsole();
 
                     if (player1Points > 19 || player2Points > 19)
                     {
-                        pointsOver21 = true;
+                        pointsOver19 = true;
                     }
                     else
                     {
@@ -239,11 +249,13 @@ namespace CMP1903_A1_2324
                         Console.WriteLine("Five of a kind rolled. Total Points for P2: " + player2Points);
                     }
 
+                    Testing.ThreeOrMoreTotalTest(player1Points, player2Points);
+
                     ClearConsole();
 
                     if (player1Points > 19 || player2Points > 19)
                     {
-                        pointsOver21 = true;
+                        pointsOver19 = true;
                     }
                     else
                     {
